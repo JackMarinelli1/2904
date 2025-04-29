@@ -69,7 +69,17 @@ export default function App() {
   }
 
   return (
-    <div style={{ backgroundColor: '#0f172a', color: 'white', minHeight: '100vh', padding: '1.5rem' }}>
+    <div
+  style={{
+    backgroundImage: 'url("/LANDING_USA.JPG")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    color: 'white',
+    minHeight: '100vh',
+    padding: '1.5rem'
+  }}
+>
+
       <h1 style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>FantaRoute66</h1>
       <p>Benvenuto, <strong>{nickname}</strong>! Hai {maxCredits} crediti. Seleziona gli eventi che pensi accadranno!</p>
       
