@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react";
 
 const events = [
-  { id: 1, name: "Buchiamo una gomma lungo la Route 66", cost: 30 },
-  { id: 2, name: "Veniamo fermati dalla polizia", cost: 25 },
+  { id: 1, name: "Buchiamo una gomma lungo la Route 66", cost: 20 },
+  { id: 2, name: "Veniamo fermati dalla polizia", cost: 5 },
   { id: 3, name: "Uno vomita al ristorante", cost: 20 },
-  { id: 4, name: "Ci perdiamo nel deserto", cost: 15 },
-  { id: 5, name: "Facciamo amicizia con un gruppo di motociclisti", cost: 10 },
-  { id: 6, name: "Uno di noi rimane senza benzina", cost: 10 },
+  { id: 4, name: "Ci perdiamo nel deserto", cost: 25 },
+  { id: 5, name: "Facciamo amicizia con un gruppo di motociclisti", cost: 1 },
+  { id: 6, name: "Facciamo amicizia con un senzatetto", cost: 1 },
 { id: 7, name: "Renzo in carcere", cost: 55 },
-{ id: 7, name: "Renzo Inn carcere", cost: 55 },
-{ id: 7, name: "Renzo Inn carcere", cost: 55 },
+{ id: 8, name: "Jack in carcere", cost: 55 },
+{ id: 9, name: "Marci in carcere", cost: 55 },
+{ id: 10, name: "Marci sbronzo", cost: 15 },
 ];
 
 export default function App() {
