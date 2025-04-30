@@ -80,12 +80,12 @@ export default function App() {
   };
 
   if (!entered) {
-    return (
-      <div
-        style={{
-          backgroundImage: 'url("/landing_usa_long.jpg")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+  return (
+    <div
+      style={{
+        backgroundImage: 'url("/LANDING_USA.JPG")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
           height: "100vh",
           display: "flex",
           flexDirection: "column",
